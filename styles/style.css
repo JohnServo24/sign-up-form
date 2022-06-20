@@ -1,6 +1,22 @@
+@font-face {
+  src: url("../assets/fonts/Norse-Bold.otf");
+  font-family: Norse;
+}
+
+@font-face {
+  src: url("../assets/fonts/Roboto-Regular.ttf");
+  font-family: Roboto;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: Roboto;
+}
+
+p, h1 {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -16,6 +32,73 @@ body {
 }
 
 .side {
+  width: 700px;
+  height: 100vh;
   background-image: url("../assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0px 0px 10px;
+          box-shadow: 0px 0px 10px;
+}
+
+.side .credits {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.side .credits a {
+  color: white;
+}
+
+.side header {
+  -ms-flex-preferred-size: 50vh;
+      flex-basis: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.side header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 8px;
+}
+
+.side header .logo img {
+  width: 100px;
+}
+
+.side header .logo h1 {
+  color: white;
+  font-size: 5rem;
+  font-family: Norse;
 }
 /*# sourceMappingURL=style.css.map */
