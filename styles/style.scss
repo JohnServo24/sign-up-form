@@ -3,6 +3,13 @@
 }
 body {
     display: flex;
+    align-items: center;
+    height: 100vh;
     margin: 0;
     padding: 0;
+}
+
+.side {
+    background-image: url("../assets/images/background.jpg");
+       
 }
