@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <section class="side">
         <header>
@@ -16,42 +18,57 @@
             </div>
         </header>
         <div class="credits">
-            <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> 
+            <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a>
                 on <a href="https://unsplash.com/">Unsplash</a></p>
         </div>
     </section>
     <main>
-        <section class="top">
-            <p>This is not a real online service! You know you need something like this in your
-                life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-            <p>You <em>know</em> you want to.</p>
-        </section>
-        <section class="form-part">
-            <form action="" method="post">
-                <div class="form-main">
-                    <h1>Let's do this!</h1>
+        <form action="" method="post">
+            <div class="top">
+                <p>This is not a real online service! You know you need something like this in your
+                    life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+
+            <div class="form-main">
+                <h1>Let's do this!</h1>
+                <div class="input-wrap">
                     <div>
-                        <label for="firstName">First Name:</label>
+                        <label for="firstName">FIRST NAME</label>
                         <input type="text" id="firstName">
-                        <label for="lastName">Last Name:</label>
+                    </div>
+                    <div>
+                        <label for="lastName">LAST NAME</label>
                         <input type="text" id="lastName">
                     </div>
+                </div>
+                <div class="input-wrap">
                     <div>
-                        <label for="email">Email:</label>
+                        <label for="email">EMAIL</label>
                         <input type="email" id="email">
-                        <label for="phoneNum">Phone Number:</label>
+                    </div>
+                    <div>
+                        <label for="phoneNum">PHONE NUMBER</label>
                         <input type="tel" id="phoneNum">
                     </div>
+                </div>
+                <div class="input-wrap">
                     <div>
                         <label for="password">PASSWORD</label>
                         <input type="password" id="password">
+                    </div>
+                    <div>
                         <label for="confirmPass">CONFIRM PASSWORD</label>
                         <input type="password" id="confirmPass">
                     </div>
                 </div>
-                <button type="submit" class="submit-button">Create Account</button>
-            </form>
-        </section>
+            </div>
+            <div class="submit-button">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <span>Log in</span></p>
+            </div>
+        </form>
     </main>
 </body>
+
 </html>
