@@ -23,7 +23,7 @@
         </div>
     </section>
     <main>
-        <form action="" method="post">
+        <form action="http://httpbin.org/post" method="post">
             <div class="top">
                 <p>This is not a real online service! You know you need something like this in your
                     life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
@@ -35,31 +35,31 @@
                 <div class="input-wrap">
                     <div>
                         <label for="firstName">FIRST NAME</label>
-                        <input type="text" id="firstName" required>
+                        <input type="text" id="firstName" name="firstName" required>
                     </div>
                     <div>
                         <label for="lastName">LAST NAME</label>
-                        <input type="text" id="lastName" required>
+                        <input type="text" id="lastName" name="lastName" required>
                     </div>
                 </div>
                 <div class="input-wrap">
                     <div>
                         <label for="email">EMAIL</label>
-                        <input type="email" id="email" required>
+                        <input type="email" id="email" name="email" required>
                     </div>
                     <div>
                         <label for="phoneNum">PHONE NUMBER</label>
-                        <input type="tel" id="phoneNum" required>
+                        <input type="tel" id="phoneNum" name="phoneNum" required>
                     </div>
                 </div>
                 <div class="input-wrap">
                     <div>
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password" required>
+                        <input type="password" id="password" name="password" required>
                     </div>
                     <div>
                         <label for="confirmPass">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirmPass" required>
+                        <input type="password" id="confirmPass" name="confirmPass" required>
                     </div>
                 </div>
             </div>
